@@ -1,0 +1,34 @@
+/* 顶部导航 */
+.topnav {
+
+    width: 100%;
+    background-color: #333333;
+}
+/* 版心 因为版心公共样式 所以放在common.css */
+/* 顶部导航左边 */
+.topnav-left {
+
+    float: left;
+}
+/* 顶部导航左边的链接 */
+.topnav-left a {
+                                                                                                                
+    float: left;
+}
+
+/* 顶部导航左边的竖线 */
+.topnav-left i {
+
+    float: left;
+}
+/* 顶部导航右边的链接 */
+.topnav-right a {
+
+    float: left;
+}
+/* 顶部导航右边的竖线 */
+.topnav-right i {
+
+    float: left;
+}
+/* 顶部导航右边的购物车 */
