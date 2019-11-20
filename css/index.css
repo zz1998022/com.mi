@@ -1,34 +1,94 @@
 /* 顶部导航 */
 .topnav {
 
-    width: 100%;
+    height: 40px;
     background-color: #333333;
 }
-/* 版心 因为版心公共样式 所以放在common.css */
-/* 顶部导航左边 */
-.topnav-left {
 
+/* 顶部坐旁边 */
+.topnav-left a,
+.topnav-left i{
+
+    /* display: block; */
     float: left;
-}
-/* 顶部导航左边的链接 */
-.topnav-left a {
-                                                                                                                
-    float: left;
+    color: #cccccc;
+    margin: 0 4px;
+    line-height: 40px;
 }
 
-/* 顶部导航左边的竖线 */
 .topnav-left i {
 
-    float: left;
+    color: #3f3c35;
 }
-/* 顶部导航右边的链接 */
-.topnav-right a {
+
+.topnav-left a:hover {
+
+    color: #ffffff;
+}
+
+/* 右侧导航栏 */
+
+.topnav-right {
+
+    float: right;
+}
+
+.topnav-right a{
 
     float: left;
+    color: #cccccc;
+    margin-left: 24px;
+    line-height: 40px;
 }
-/* 顶部导航右边的竖线 */
-.topnav-right i {
+
+.cart {
+
+    width: 120px;
+    height: 40px;
+    margin-left: 24px;
+    border: none;
+    background-color: #424242;
+    color: #cccccc;
+    text-align: center;
+}
+
+.cart:hover {
+
+    background-color: #fff;
+    color: #ff7c23;
+}
+
+/* 搜索导航 */
+.searchnav {
+
+    height: 100px;
+    border: 1px solid red;
+}
+
+/* 左侧logo */
+.searchnav-logo {
 
     float: left;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    background-image: url(../image/mi-logo.png);
+    background-position: center center;
+    margin-top: calc((100px - 55px) / 2);
 }
-/* 顶部导航右边的购物车 */
+
+/* tab栏 */
+.searchnav-tab {
+
+    float: left;
+    height: 100px;
+    margin-left: 180px;
+}
+
+.searchnav-tab a {
+
+    float: left;
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 100px;
+}
