@@ -1,28 +1,23 @@
 /* 版心 */
 .container {
-
-    position: relative;
-    margin: 0 auto;
-    width: 1226px;
+  position: relative;
+  margin: 0 auto;
+  width: 1226px;
 }
 
 /* 清除浮动 */
-
 .clearfix:before,
 .clearfix:after {
-
-    content: "";
-    /* 既让伪元素变成3块级 还让他们排在一行 */
-    display: table;
+  content: "";
+  /* 既让伪元素变成块级 还让他们排在一行 */
+  display: table;
 }
 
 .clearfix:after {
-
-    clear: both;
+  clear: both;
 }
 
 /* 兼容ie 6 7 */
 .clearfix {
-
-    *zoom: 1;
+  *zoom: 1;
 }

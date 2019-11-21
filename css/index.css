@@ -1,94 +1,191 @@
 /* 顶部导航 */
 .topnav {
-
-    height: 40px;
-    background-color: #333333;
+  height: 40px;
+  background-color: #333333;
 }
 
-/* 顶部坐旁边 */
+/* 版心 因为版心公共样式 所以放在common.css */
+/* 顶部导航左边 */
+.topnav-left {
+  float: left;
+}
+
+/* 顶部导航左边的链接 */
+/* .topnav-left  a {
+  float: left;
+  color: #b0b0b0;
+  line-height: 40px;
+} */
+
 .topnav-left a,
-.topnav-left i{
-
-    /* display: block; */
-    float: left;
-    color: #cccccc;
-    margin: 0 4px;
-    line-height: 40px;
+.topnav-right a {
+  float: left;
+  color: #b0b0b0;
+  line-height: 40px;
 }
 
-.topnav-left i {
 
-    color: #3f3c35;
+/* .topnav-left  a:hover {
+  color: #ffffff;
+} */
+
+.topnav-left a:hover,
+.topnav-right a:hover {
+  color: #ffffff;
 }
 
-.topnav-left a:hover {
+/* 顶部导航左边的竖线 */
+/* .topnav-left i {
+  float: left;
+  color: #423c37;
+  line-height: 40px;
+  margin: 0 8px;
+} */
 
-    color: #ffffff;
+.topnav-left i,
+.topnav-right i {
+  float: left;
+  color: #423c37;
+  line-height: 40px;
+  margin: 0 8px;
 }
 
-/* 右侧导航栏 */
-
+/* 顶部导航右边 */
 .topnav-right {
-
-    float: right;
+  float: right;
 }
 
-.topnav-right a{
+/* 顶部导航右边的链接 */
+/* .topnav-right a {
+  float: left;
+  color: #b0b0b0;
+  line-height: 40px;
+} */
 
-    float: left;
-    color: #cccccc;
-    margin-left: 24px;
-    line-height: 40px;
+/* .topnav-right a:hover {
+  color: #fff;
+} */
+
+/* 顶部导航右边的竖线 */
+/* .topnav-right i {
+  float: left;
+  color: #423c37;
+  line-height: 40px;
+  margin: 0 8px;
+} */
+/* 顶部导航右边的购物车 */
+.topnav-right .cart {
+  margin-left: 24px;
+  width: 120px;
+  height: 40px;
+  background-color: #424242;
+  text-align: center;
 }
 
-.cart {
-
-    width: 120px;
-    height: 40px;
-    margin-left: 24px;
-    border: none;
-    background-color: #424242;
-    color: #cccccc;
-    text-align: center;
+.topnav-right .cart:hover {
+  color: #ff6700;
+  background-color: #ffffff;
 }
 
-.cart:hover {
-
-    background-color: #fff;
-    color: #ff7c23;
-}
 
 /* 搜索导航 */
 .searchnav {
-
-    height: 100px;
-    border: 1px solid red;
+  height: 100px;
 }
 
-/* 左侧logo */
 .searchnav-logo {
-
-    float: left;
-    width: 55px;
-    height: 55px;
-    background-color: #ff6700;
-    background-image: url(../image/mi-logo.png);
-    background-position: center center;
-    margin-top: calc((100px - 55px) / 2);
+  float: left;
+  width: 55px;
+  height: 55px;
+  background-color: #ff6700;
+  padding: 3px;
+  box-sizing: border-box;
+  margin-top: calc((100px - 55px) / 2);
 }
 
-/* tab栏 */
 .searchnav-tab {
-
-    float: left;
-    height: 100px;
-    margin-left: 180px;
+  float: left;
+  height: 100px;
+  margin-left: 180px;
 }
 
 .searchnav-tab a {
+  float: left;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #333333;
+  line-height: 100px;
+}
 
-    float: left;
-    font-size: 16px;
-    margin: 0 10px;
-    line-height: 100px;
+.searchnav-search {
+  float: right;
+  margin-top: calc((100px - 50px) / 2);
+  width: 296px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.searchnav-search input {
+  float: left;
+  width: calc(296px - 52px);
+  box-sizing: border-box;
+  padding: 8px;
+  height: 100%;
+  border: none;
+  border-right: 1px solid #e0e0e0;
+}
+
+.searchnav-search button {
+  float: right;
+  width: 50px;
+  height: 48px;
+  background-color: #ffffff;
+  background-image: url(../img/search_icon.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: none;
+}
+
+.searchnav-search-hotkeys {
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  right: 51px;
+  height: 18px;
+  line-height: 18px;
+}
+
+.searchnav-search-hotkeys span {
+  margin-right: 8px;
+  padding: 4px 6px;
+  background-color: #eeeeee;
+  color: #757575;
+}
+
+/* 轮播图 */
+.lunbotu {
+
+  height: 575px;
+}
+
+/* 轮播图菜单 */
+.lunbotu-menu-text{
+
+  /* float: left; */
+  width: 292px;
+  height: 575px;
+  background-color: #3f474c;
+}
+
+.lunbotu-menu-text li {
+
+  width: 234px;
+  height: 42px;
+}
+
+.lunbotu-menu-text li a {
+
+  color: #ffffff;
+  font-size: 16px;
 }
