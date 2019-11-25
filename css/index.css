@@ -1,191 +1,331 @@
 /* 顶部导航 */
 .topnav {
+
   height: 40px;
   background-color: #333333;
 }
 
-/* 版心 因为版心公共样式 所以放在common.css */
 /* 顶部导航左边 */
 .topnav-left {
+
   float: left;
+  line-height: 40px;
 }
 
-/* 顶部导航左边的链接 */
-/* .topnav-left  a {
+.topnav-left a {
+
   float: left;
   color: #b0b0b0;
-  line-height: 40px;
-} */
-
-.topnav-left a,
-.topnav-right a {
-  float: left;
-  color: #b0b0b0;
-  line-height: 40px;
+  margin: 0 6px;
 }
 
+.topnav-left a:first-child {
 
-/* .topnav-left  a:hover {
-  color: #ffffff;
-} */
-
-.topnav-left a:hover,
-.topnav-right a:hover {
-  color: #ffffff;
+  margin-left: 0;
 }
 
-/* 顶部导航左边的竖线 */
-/* .topnav-left i {
-  float: left;
-  color: #423c37;
-  line-height: 40px;
-  margin: 0 8px;
-} */
+.topnav-left span {
 
-.topnav-left i,
-.topnav-right i {
   float: left;
-  color: #423c37;
-  line-height: 40px;
-  margin: 0 8px;
+  color: #424242;
 }
 
-/* 顶部导航右边 */
+/* 导航栏右侧 */
 .topnav-right {
+
   float: right;
 }
 
-/* 顶部导航右边的链接 */
-/* .topnav-right a {
+.topnav-right a,
+.topnav-right span {
+
   float: left;
+  line-height: 40px;
+  margin: 0 3px;
+}
+
+.topnav-right a {
+
   color: #b0b0b0;
-  line-height: 40px;
-} */
+}
 
-/* .topnav-right a:hover {
-  color: #fff;
-} */
+.topnav-right span {
 
-/* 顶部导航右边的竖线 */
-/* .topnav-right i {
-  float: left;
-  color: #423c37;
-  line-height: 40px;
-  margin: 0 8px;
-} */
-/* 顶部导航右边的购物车 */
-.topnav-right .cart {
-  margin-left: 24px;
+  color: #424242;
+}
+
+.topnav-right a:last-child {
+
+  position: relative;
+  display: block;
   width: 120px;
   height: 40px;
   background-color: #424242;
   text-align: center;
 }
 
-.topnav-right .cart:hover {
-  color: #ff6700;
-  background-color: #ffffff;
+.topnav-right .cart span {
+
+  text-align: center;
 }
 
+.topnav-right .cart i {
 
-/* 搜索导航 */
-.searchnav {
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: 10px;
+  font-size: 30px;
+}
+
+/* tab栏 */
+
+.tab {
+
   height: 100px;
 }
 
-.searchnav-logo {
+.tab-logo {
+
+  display: block;
   float: left;
   width: 55px;
   height: 55px;
+  margin-top: 22px;
   background-color: #ff6700;
-  padding: 3px;
-  box-sizing: border-box;
-  margin-top: calc((100px - 55px) / 2);
+  background-image: url(../images/mi-logo.png);
+  background-position: center center;
 }
 
-.searchnav-tab {
+.tab-text {
+
   float: left;
-  height: 100px;
-  margin-left: 180px;
+  margin-left: 154px;
 }
 
-.searchnav-tab a {
+.tab-text li {
+
   float: left;
-  margin: 0 10px;
-  font-size: 16px;
-  color: #333333;
   line-height: 100px;
+  font-size: 17.6px;
+  margin-right: 26px;
 }
 
-.searchnav-search {
+/* 搜索框 */
+.tab-search {
+
+  position: relative;
   float: right;
-  margin-top: calc((100px - 50px) / 2);
   width: 296px;
   height: 50px;
   border: 1px solid #e0e0e0;
-  box-sizing: border-box;
+  margin-top: 22px;
 }
 
-.searchnav-search input {
-  float: left;
-  width: calc(296px - 52px);
-  box-sizing: border-box;
-  padding: 8px;
-  height: 100%;
-  border: none;
-  border-right: 1px solid #e0e0e0;
-}
+.tab-search span {
 
-.searchnav-search button {
-  float: right;
-  width: 50px;
-  height: 48px;
-  background-color: #ffffff;
-  background-image: url(../img/search_icon.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  border: none;
-}
-
-.searchnav-search-hotkeys {
   position: absolute;
-  top: 50%;
-  margin-top: -9px;
-  right: 51px;
-  height: 18px;
-  line-height: 18px;
-}
-
-.searchnav-search-hotkeys span {
-  margin-right: 8px;
-  padding: 4px 6px;
   background-color: #eeeeee;
-  color: #757575;
+  padding: 2px;
 }
 
-/* 轮播图 */
-.lunbotu {
+.tab span:first-child {
 
-  height: 575px;
+  top: 16px;
+  left: 70px;
 }
 
-/* 轮播图菜单 */
-.lunbotu-menu-text{
+.tab span:nth-child(2) {
 
-  /* float: left; */
-  width: 292px;
-  height: 575px;
-  background-color: #3f474c;
+  position: absolute;
+  top: 16px;
+  left: 154px;
 }
 
-.lunbotu-menu-text li {
+.tab-search button {
 
+  position: absolute;
+  width: 52px;
+  height: 51px;
+  border: none;
+  right: 0;
+  top: 0px;
+  font-size: 22px;
+  transition: all 1;
+}
+
+.tab-search button:hover {
+
+  transition: all 1;
+  background-color: #ff6700;
+  color: #eeeeee;
+}
+
+/* banner区域 */
+.banner {
+
+  position: relative;
+  height: 460px;
+}
+
+.banner-phone img {
+
+  width: 100%;
+}
+
+/* 选择列表 */
+.banner-select {
+
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 234px;
-  height: 42px;
+  height: 460px;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.lunbotu-menu-text li a {
+.banner-select ul {
 
-  color: #ffffff;
+  width: 174px;
+  margin: 20px 0;
+}
+
+.banner-select ul li {
+
+  height: 42px;
+  line-height: 42px;
+}
+
+.banner-select ul li i {
+
+  float: right;
+}
+
+.banner-select ul li a {
+
+  width: 174px;
+  display: block;
+  padding: 0 30px;
+  color: #fff;
   font-size: 16px;
+  font-weight: 500;
+}
+
+.banner-select ul li a i {
+
+  color: #e0e0e0;
+}
+
+.banner-select ul li a:hover {
+
+  background-color: #ff6700;
+}
+
+/* 轮播图小圆点 */
+.banner-point {
+
+  position: absolute;
+  bottom: 20px;
+  right: 35px;
+}
+
+.banner-point a {
+
+  float: left;
+  width: 6px;
+  height: 6px;
+  border: 2px solid #b1b1b1;
+  border-radius: 50%;
+  background-color: #667d81;
+  margin: 0 3px;
+}
+
+.banner-point a:hover {
+
+  border: 2px solid #b1b1b1;
+  background-color: #fff;
+}
+
+/* 小米秒杀 */
+.miaosha .container {
+
+  width: 1228px;
+}
+
+.miaosha {
+
+  margin-top: 14px;
+}
+
+.miaosha-fma {
+
+  float: left;
+  width: 234px;
+  height: 170px;
+  background-color: #5f5750;
+}
+
+.miaosha-fma ul {
+
+  padding-left: 10px;
+}
+
+.miaosha-fma ul li {
+
+  float: left;
+  width: 70px;
+  height: 56px;
+  border: 1px solid #665e57;
+  text-align: center;
+  padding-top: 22px;
+  margin-left: -1px;
+}
+
+.miaosha-fma ul li a,
+.miaosha-fma ul li a span {
+
+  display: block;
+  color: #bcb9b6;
+}
+
+.miaosha-fma ul li a span {
+
+  margin-top: 3px;
+}
+
+.miaosha-fma ul li a span:hover {
+
+  color: #ffffe3;
+}
+
+.miaosha-fma ul li a img {
+
+  width: 24px;
+  height: 24px;
+}
+
+.miaosha-fma ul li {
+
+  border-bottom: none;
+}
+
+/* 小米手机秒杀 1,2,3 */
+.miaosha-msw li {
+
+  float: left;
+  width: 316px;
+  height: 170px;
+  margin-left: 15px;
+}
+
+.miaosha-msw li a {
+
+  display: block;
+  width: 316px;
+  height: 170px;
+}
+
+.miaosha-msw li a img {
+
+  width: 100%;
 }
