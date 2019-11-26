@@ -51,12 +51,22 @@ body {
   content: "\e6ab";
 }
 
+.icon-arrow_right:before {
+  content: "\e65e";
+}
+
+.icon-arrow_left:before {
+  content: "\e65f";
+}
+
 .icon-biaoqing:before {
   content: "\e621";
+}
+
+.icon-jiantou:before {
+  content: "\e84f";
 }
 
 .icon-fangdajing:before {
   content: "\e62a";
 }
-
-
