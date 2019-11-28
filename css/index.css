@@ -376,7 +376,7 @@
   color: #ff6700;
 }
 
-.shangou-ct { 
+.shangou-ct {
 
   float: left;
   height: 398px;
@@ -393,9 +393,9 @@
 
 .round h3 {
 
- text-align: center;
- font-size: 21px;
- color: #ef3a3b;
+  text-align: center;
+  font-size: 21px;
+  color: #ef3a3b;
 
 }
 
@@ -430,7 +430,7 @@
   font-size: 24px;
   color: #fff;
   line-height: 46px;
-  
+
   background-color: #605751;
 }
 
@@ -452,7 +452,7 @@
   margin-top: 12px;
 }
 
-.shangou-list li{
+.shangou-list li {
 
   float: left;
   width: 234px;
@@ -520,7 +520,7 @@
 }
 
 .ad a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add1.webp);
@@ -541,7 +541,7 @@
 }
 
 .ad2 a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add2.webp);
@@ -562,7 +562,7 @@
 }
 
 .ad3 a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add3.webp);
@@ -583,7 +583,7 @@
 }
 
 .ad4 a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add4.webp);
@@ -604,7 +604,7 @@
 }
 
 .ad5 a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add5.webp);
@@ -625,7 +625,7 @@
 }
 
 .ad6 a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add6.webp);
@@ -646,7 +646,7 @@
 }
 
 .ad7 a {
-  
+
   display: block;
   height: 120px;
   background-image: url(../uploads/add7.webp);
@@ -709,7 +709,7 @@
 .phone-ad:hover {
   transition: all 1s;
   top: -5px;
-  box-shadow: 0 10px 20px rgba(0,0,0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .phone-list div {
@@ -717,7 +717,7 @@
   width: 160px;
   height: 160px;
   margin: 20px auto;
- 
+
 }
 
 .phone-list div img {
@@ -900,4 +900,238 @@
   margin-top: 50px;
 }
 
+/* 视频部分 */
+.video {
 
+  background-color: #f5f5f5;
+}
+
+.video .container {
+
+  /* width: 1240px; */
+}
+
+.video-hd {
+
+  padding-top: 28p x;
+  height: 58px;
+}
+
+.video-hd a:first-child {
+
+  display: block;
+  float: left;
+  line-height: 58px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.video-hd a:last-child {
+
+  display: block;
+  float: right;
+  line-height: 58px;
+  font-size: 16px;
+}
+
+.video-hd a:last-child:hover {
+
+  color: #ff6a06;
+}
+
+.video-bd li {
+
+  float: left;
+  width: 296px;
+  height: 285px;
+  background-color: #fff;
+  margin-right: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.video-bd li a {
+
+  position: relative;
+  display: block;
+  width: 296px;
+  height: 285px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.video-bd li:last-child {
+
+  margin-right: 0;
+}
+
+.video-bd li a div img {
+
+  width: 296px;
+  height: 180px;
+}
+
+
+.video-bd li a p {
+
+  margin-top: 30px;
+}
+
+.video-bd li a i {
+
+  position: absolute;
+  top: 145px;
+  left: 20px;
+  font-size: 22px;
+  color: #fff;;
+}
+
+.video-bd li a:hover i {
+
+  color: #ff6700;
+}
+
+/* 页脚部分 */
+.footer {
+
+  background-color: #ffffff;
+}
+.footer-service {
+
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.footer-service a {
+
+  display: block;
+  float: left;
+  font-size: 16px;
+  margin-left: 72px;
+  padding-right: 72px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.footer-service a:last-child {
+
+  border-right: none;
+}
+
+.footer-service a:hover {
+
+  color: #ff6700;
+}
+
+.footer-links {
+
+  padding: 32px 0;
+}
+
+
+.footer-links dl {
+
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+
+.footer-links dl:last-child {
+
+  
+}
+
+.footer-links dl dt {
+
+  font-size: 14px;
+}
+
+.footer-links dl dd {
+
+  margin-top: 12px;
+}
+
+.phone-number {
+
+  float: right;
+  width: 252px;
+  height: 112px;
+  text-align: center;
+}
+
+.phone-number h1 {
+
+  font-size: 22px;
+  color: #ff6700;
+}
+
+.phone-number p {
+  
+  margin: 0 0 16px;
+}
+
+
+.phone-number button {
+
+  width: 120px;
+  height: 30px;
+  border: 1px solid #ff6700;
+  text-align: center;
+  background-color: #fff;
+  color: #ff6700;
+}
+
+.phone-number button:hover {
+
+  background-color: #ff6700;
+  color: #fff;
+}
+
+/* 底部信息 */
+.info {
+
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.info-logo {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ff6700;
+  width: 57px;
+  height: 57px;
+  background-image: url(../images/mi-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-text {
+
+  padding-left: 67px;
+}
+
+.info-links a i{
+
+  display: block;
+  float: left;
+}
+
+.info-icp {
+
+  color: #c1b0b7;
+}
+
+.info-img img:first-child {
+
+  width: 83px;
+  height: 28px;
+}
+
+.info-fashao {
+
+  height: 90px;
+  background-image: url(../uploads/slogan2016.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}

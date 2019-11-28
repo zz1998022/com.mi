@@ -51,12 +51,20 @@
   content: "\e6ab";
 }
 
+.icon-xinxi:before {
+  content: "\e64b";
+}
+
 .icon-arrow_right:before {
   content: "\e65e";
 }
 
 .icon-arrow_left:before {
   content: "\e65f";
+}
+
+.icon-bofang:before {
+  content: "\e62c";
 }
 
 .icon-biaoqing:before {
